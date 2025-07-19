@@ -16,6 +16,8 @@ SkillScanX is an AI-powered resume analyzer that provides comprehensive feedback
 - **🔒 Secure Storage**: Your resumes are safely stored with authentication
 - **📄 PDF Support**: Upload and analyze PDF resumes seamlessly
 - **📋 Application Tracking**: Keep track of your job applications and resume versions
+- **📱 PWA Support**: Install as a mobile/desktop app with offline functionality
+- **⚡ Offline Ready**: Core features work even without internet connection
 
 ## 🚀 Demo
 
@@ -80,6 +82,29 @@ docker build -t skillscanx .
 # Run the container
 docker run -p 3000:3000 skillscanx
 ```
+
+## 📱 PWA Installation
+
+SkillScanX is a Progressive Web App (PWA) that can be installed on any device:
+
+### 📱 Mobile Installation (Android/iOS)
+1. Open SkillScanX in your mobile browser
+2. Look for the "Add to Home Screen" or "Install" prompt
+3. Tap "Install" or "Add" to install the app
+4. The app will appear on your home screen like a native app
+
+### 💻 Desktop Installation (Chrome/Edge)
+1. Visit SkillScanX in Chrome or Edge browser
+2. Look for the install icon (⊕) in the address bar
+3. Click the install button or go to Settings → Install SkillScanX
+4. The app will be available in your applications menu
+
+### ✨ PWA Features
+- **Offline Access**: Core functionality works without internet
+- **Native Feel**: Looks and behaves like a native app
+- **Auto Updates**: Automatically updates when new versions are available
+- **Fast Loading**: Cached resources for instant startup
+- **App Shortcuts**: Quick access to upload and dashboard features
 
 ## 🎯 Usage
 
